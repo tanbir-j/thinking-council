@@ -17,6 +17,7 @@ Added
 - Calibration anchors for scoring, a mandatory strongest objection, and a recusal rule
 - Author profile template with a private override that stays out of version control
 - Ten test cases built from invented passages
+- Apache 2.0 licence
 
 Changed
 

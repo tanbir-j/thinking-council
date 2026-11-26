@@ -125,7 +125,9 @@ The Harness Team seats borrow the names of well-known fictional characters as sh
 
 ## Licence
 
-No licence file is included yet.
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+
+The licence covers the author's own work in this repository. The frameworks credited under Sources and the fictional character names belong to their respective owners.
 
 ## Author
 
