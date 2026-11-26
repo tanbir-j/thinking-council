@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: reconcile-catches-lost-material
+expected_outcome: |
+  A reconcile report. It notes that the setting 'in one regional distributor' was lost, that the
+  figure 37 was dropped, and that the final clause recommending an inventory of local workbooks is a
+  new claim not in the original. It asks the author to confirm each, and treats the new recommendation
+  as an adjustment.

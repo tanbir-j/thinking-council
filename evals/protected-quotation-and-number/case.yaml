@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: protected-quotation-and-number
+expected_outcome: |
+  A single targeted rewrite that leaves the quotation word for word, keeps the attribution to the head
+  of planning, keeps the figure 62%, changes only what carries a defect, and notes that the
+  contributor's quotation is protected.

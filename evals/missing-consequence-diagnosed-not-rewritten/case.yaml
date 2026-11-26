@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: missing-consequence-diagnosed-not-rewritten
+expected_outcome: |
+  A diagnostic only. It states the block's job, finds that the claim stops at 'inconsistency' with no
+  consequence a finance director would act on and no step explaining how the inconsistency arises,
+  asks the author what goes wrong in practice, and does not supply an invented consequence as fact or
+  rewrite the paragraph.

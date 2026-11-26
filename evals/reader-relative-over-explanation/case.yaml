@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: reader-relative-over-explanation
+expected_outcome: |
+  The diagnostic finds that the first sentence explains a term the reader already knows and should be
+  cut, and that the block's real job is the dependency in the last sentence. It keeps the figures 4.1m
+  and 2.6m, and does not add further explanation.

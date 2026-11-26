@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: blurred-prepare-approve-post
+expected_outcome: |
+  The diagnostic finds that preparing, approving, and posting a journal are treated as one act and
+  that the paragraph gives approval authority to the assistant without saying who holds it or who can
+  stop it. It treats this as a blurred distinction that matters to an audit committee, asks who
+  approves and who posts, and does not invent a control design.

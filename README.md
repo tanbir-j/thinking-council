@@ -1,58 +1,82 @@
 # Thinking Council
 
-Thinking Council is an adaptive review skill for developing and challenging thought-leadership articles.
+Thinking Council is an adaptive skill for reviewing, challenging, and helping to produce professional work: articles, white papers, consulting reports, board papers, business cases, client decks, models, and single paragraphs. It thinks freely first, then judges tightly.
 
-It combines two review bodies:
+Three chambers do the judging:
 
-- **The Harness Team**, a five-part business-thinking framework covering strategic context, evidence, persuasion, people and practical delivery.
+- **The Harness Team**, a five-part business-thinking chain covering strategic context, evidence, persuasion, people and practical delivery. It runs on every review.
+- **A practitioner bench**, summoned when the work needs it: a strategy partner, an audit partner, a private equity operating partner, or the executive who will read the work.
 - **The Council of Philosophers**, a selectively appointed bench used to compress, expand, reflect on or strengthen execution of the argument.
-
-## What it reviews
-
-The first mature profile is designed for articles at different stages:
-
-- Concepts and early ideas
-- Article outlines
-- Complete first drafts
-- Revised drafts
-- Near-final and pre-publication articles
-- Comparisons between alternative versions
 
 ## Operating modes
 
-### Council Glance
+| Mode | Job |
+|---|---|
+| Single counsel | One reviewer, one method |
+| Open Field | Thinking partner before anything is written: angles, hypotheses, the best version of the eventual output |
+| Close Read | One paragraph or block at a time. Is the thought complete, and can this reader follow it? |
+| Council Glance | Quick diagnostic on a concept, outline, or thesis |
+| Full Council | Developmental review of a draft, report, or model |
+| Boardroom Rehearsal | The work is read by simulated named executives before the real ones see it |
+| Final Gate | Readiness decision for publication or for a client |
+| Drafting Room | Produces the deliverable, as a scaffold or a draft |
 
-A focused review for concepts, outlines and quick diagnosis.
+Every Council review ends with four things: a verdict, the findings, the strongest objection, and the next move. Everything else appears only when the work calls for it.
 
-### Full Council
+## Close Read
 
-A developmental review of a complete draft, including argument, structure, narrative, clarity and improvement priorities.
+Close Read rests on one finding: the largest gains in clarity come from fixing the thought before polishing the sentence. For each block it asks what job the block has, what it claims, why the claim holds, what follows, how a reader would check it, and which ideas it has merged. Voice comes last.
 
-### Publication Tribunal
+It works this way by design:
 
-A pre-publication challenge including evidence-backed originality research, thought-leadership assessment and personal-brand fit.
+- **Diagnosis first.** Text is rewritten only on request, only for the block in hand.
+- **Keep is the default.** Most paragraphs in a competent draft should be left alone.
+- **The author owns every claim.** A missing link is a question for the author. Anything the reviewer contributes is marked as proposed.
+- **Reclass or adjustment.** A change that leaves the claims intact is a reclass. A change that adds, removes, narrows, or strengthens a claim is an adjustment and is listed for approval.
+- **Reconcile.** When the author rewrites a block in their own words, `scripts/integrity_check.py` compares it with the original and reports numbers, quotations, names, references, and sentences that were lost or added.
+- **Cold-reader test.** A reader with no context restates the claim, the reason, and the consequence. A mismatch fails the edit.
 
-## Core review tests
+Close Read is an editorial method. It makes no claim about who or what wrote a text and does not predict the result of any AI-detection tool.
 
-Thinking Council examines:
+## Layout
 
-- Intended outcome and audience
-- Strength and distinctiveness of the central idea
-- Coherence
-- Narrative thread
-- Plain language and accessibility
-- MECE structure where appropriate
-- Evidence and reasoning
-- Reader value
-- Innovation
-- Thought-leadership quality
-- Personal-brand contribution
+```
+SKILL.md                     router: modes, chambers, workflow
+references/
+├── close-read.md            paragraph-level review
+├── council-roster.md        seats, methods, guards
+├── thinking-modes.md        compression, expansion, reflection, execution
+├── article-profile.md       published work: gates, scorecard, verdicts
+├── venue-profiles.md        word budgets and venue rules
+├── deliverable-profiles.md  consultancy work, reports, models
+├── executive-credibility.md how the work lands with senior executives
+├── drafting-room.md         scaffolds, drafts, skeletons
+├── output-formats.md        default shape of each mode
+└── author-profile.md        template: fill in or override privately
+scripts/
+└── integrity_check.py       compares an original with a revision
+evals/                       ten test cases built from invented passages
+```
+
+## Your own profile
+
+`references/author-profile.md` is a template. The council reads it to learn what you want to be known for, where you want to be pushed, how you write, and which venues you draft yourself.
+
+To keep that private, put a filled copy at `references/private/author-profile.md`. The skill reads the private copy first, and `.gitignore` keeps the folder out of the repository.
+
+## Checking a rewrite
+
+```
+python scripts/integrity_check.py --source original.txt --edit revised.txt
+```
+
+Standard library only. Add `--json` for the full report. The script flags candidates for a person to confirm and does not judge meaning.
 
 ## Current status
 
-This is an early public preview shared for evaluation and feedback.
+This is a public preview shared for evaluation and feedback.
 
-The article profile is mature enough for testing. Profiles for board papers, strategies, reports and presentations may follow after the article workflow has survived contact with actual users.
+The article workflow has had the most use. Close Read, the consultancy profiles, and the model profile are newer and have had less.
 
 ## Installation
 
@@ -66,9 +90,16 @@ Review externally sourced skills before installing them.
 
 - Review this article concept using Council Glance.
 - Run the Full Council on this first draft.
-- Compare these two article structures against my intended outcome.
-- Run the Publication Tribunal and assess whether this qualifies as thought leadership.
+- Close read this paragraph. It is from the section on controls and the reader is a group CFO.
+- Here is my rewrite of that paragraph. Check it against the original.
+- Review this proposal as a strategy partner.
+- Run a Boardroom Rehearsal on this board paper with the CFO as the reader.
+- Run a Final Gate and assess whether this qualifies as thought leadership.
 - Tell me what must change before this article is worth putting my name on.
+
+## Tests
+
+Each folder under `evals/` holds a prompt, a description of a good result, and a set of single-statement graders. Every passage in them is invented. They test behaviour: diagnosing without rewriting, leaving a strong paragraph alone, protecting quotations and figures, catching lost material, and refusing to invent facts.
 
 ## Feedback requested
 
@@ -77,9 +108,24 @@ I am particularly interested in:
 1. Whether the review identifies issues that a normal AI critique misses
 2. Whether the Harness Team works as one coherent framework
 3. Whether the selected philosophers add genuinely different perspectives
-4. Whether the recommendations are specific enough to improve the article
+4. Whether the recommendations are specific enough to improve the work
 5. Whether the scoring and verdicts feel credible
 6. Where the review becomes repetitive, theatrical or unnecessarily complicated
+7. Whether Close Read leaves strong paragraphs alone and asks before it assumes
+
+## Sources
+
+Three published frameworks are adapted and credited where they are used:
+
+- the Four Modes framework by Tey Bannerman (thinking modes)
+- the pyramid principle by Barbara Minto (strategy partner seat)
+- the trust equation from *The Trusted Advisor* by Maister, Green, and Galford (executive credibility)
+
+The Harness Team seats borrow the names of well-known fictional characters as shorthand for a method. This project is not affiliated with or endorsed by their rights holders.
+
+## Licence
+
+No licence file is included yet.
 
 ## Author
 

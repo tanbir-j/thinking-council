@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: model-block-assumptions
+expected_outcome: |
+  A review of the block as described. It flags the growth rate hard-coded inside the formula, the
+  churn assumption with no dated source or owner, and the absence of a sensitivity showing how far
+  growth or churn can move before cover falls below the covenant. It does not change or recalculate
+  the author's numbers as fact, and it reports findings with their row references.

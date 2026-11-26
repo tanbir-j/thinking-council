@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Use this profile for article concepts, outlines, drafts, revisions, comparisons, and pre-publication reviews. The standard is publishable thought leadership, not mere competence.
+Use this profile for published work: article concepts, outlines, drafts, revisions, comparisons, and pre-publication reviews, including white papers, series parts, social posts, and carousels. Consultancy deliverables use [deliverable-profiles.md](deliverable-profiles.md), which borrows the scale and calibration anchors below. The standard is publishable thought leadership, not mere competence.
 
 ## Review layers
 
@@ -115,6 +115,20 @@ Score each dimension from 1 to 5 against the stated objective. Give a brief reas
 - 3: Sound but ordinary or uneven
 - 4: Strong and largely ready
 - 5: Exceptional for its intended purpose
+
+### Calibration anchors
+
+The 3-to-4 boundary is where reviewer drift concentrates. Hold it.
+
+- A 3 reads like competent trade commentary: accurate, ordered, and forgettable within a week. Nothing is wrong; nothing would be quoted back. An informed reader nods and moves on.
+- A 4 contains a claim an informed reader could disagree with, framed so the disagreement is productive, plus at least one element (framework, phrase, analogy, or example) the reader could reuse without the article in front of them.
+- A 5 is rare by definition. If most dimensions score 5, the review is miscalibrated, not the article exceptional. Expect a strong publishable piece to carry a mix of 3s and 4s.
+
+Anti-drift rules:
+
+- Default to the lower score when torn between two.
+- Justify every 4 or 5 with specific evidence from the text, not general impressions.
+- Sequential reviews of the same article must be able to lower scores. Scores are re-earned each round.
 
 A high score in one dimension does not compensate for a fatal weakness elsewhere.
 
