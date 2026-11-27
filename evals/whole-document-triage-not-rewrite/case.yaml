@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: whole-document-triage-not-rewrite
+expected_outcome: |
+  A triage. It gives a reverse outline with one line per paragraph stating its job, identifies
+  paragraph 3 as a duplicate of paragraph 1, identifies paragraph 8 as having no distinct job or
+  content, shortlists the few blocks worth a close read, and does not rewrite the piece.

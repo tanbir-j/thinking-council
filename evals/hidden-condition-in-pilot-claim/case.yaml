@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: hidden-condition-in-pilot-claim
+expected_outcome: |
+  The diagnostic finds the claim is stronger than its support: the result of one pilot is extended to
+  11 entities without stating the conditions the pilot relied on. It asks what was true of the pilot
+  entity that may not hold elsewhere, suggests qualifying the claim or naming the condition, labels
+  that change an adjustment, and leaves the figures nine, four, and 11 untouched.

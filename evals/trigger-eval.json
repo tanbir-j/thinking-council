@@ -1,0 +1,74 @@
+[
+  {
+    "query": "Convene the Thinking Council on this outline for my piece on forecast accuracy. It's about 600 words so far and I'm not sure the middle holds up.",
+    "should_trigger": true
+  },
+  {
+    "query": "Thinking Council: Close Read. this is para 3 of the controls section, reader is a group CFO",
+    "should_trigger": true
+  },
+  {
+    "query": "run a Publication Tribunal on the attached draft before I send it to the editor on friday",
+    "should_trigger": true
+  },
+  {
+    "query": "Reassess the draft we just reviewed using the Council. I've rewritten the opening and cut the second example.",
+    "should_trigger": true
+  },
+  {
+    "query": "council glance on this idea pls: finance teams should stop fixing data before they know which decisions it feeds",
+    "should_trigger": true
+  },
+  {
+    "query": "Open Field: I've been asked to sort out forecasting for a group with 14 entities and three planning tools. What am I not seeing?",
+    "should_trigger": true
+  },
+  {
+    "query": "Run a Boardroom Rehearsal on this steering committee paper. The reader is a CFO two years into a private-equity-backed turnaround.",
+    "should_trigger": true
+  },
+  {
+    "query": "Final Gate on this article please, and check whether the framework is original",
+    "should_trigger": true
+  },
+  {
+    "query": "Drafting Room: I need a one-page board paper asking for approval to replace the planning tool, decision needed by the March meeting",
+    "should_trigger": true
+  },
+  {
+    "query": "Review this email to the audit committee chair before I send it. Is the tone right?",
+    "should_trigger": false
+  },
+  {
+    "query": "Improve this paragraph, it feels clunky: Month-end takes too long in most finance teams and leaders are frustrated by how long it takes.",
+    "should_trigger": false
+  },
+  {
+    "query": "What do you think of this strategy? We centralise payables in Q1, then get the close down to five days by Q3.",
+    "should_trigger": false
+  },
+  {
+    "query": "review this board paper as a strategy partner would, be blunt",
+    "should_trigger": false
+  },
+  {
+    "query": "is this ready to publish? pasting the article below",
+    "should_trigger": false
+  },
+  {
+    "query": "draft a one-page note to the CFO on why the close slipped two days",
+    "should_trigger": false
+  },
+  {
+    "query": "can you critique the structure of my deck for the lender meeting, 12 slides, attached",
+    "should_trigger": false
+  },
+  {
+    "query": "thanks, that review was useful. unrelated: what's a sensible subject line for an email moving Thursday's steering meeting to Friday?",
+    "should_trigger": false
+  },
+  {
+    "query": "my local council has written to me about a planning application next door, can you help me think through a response",
+    "should_trigger": false
+  }
+]

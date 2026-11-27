@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: same-shape-run-not-cosmetic-variation
+expected_outcome: |
+  The diagnostic notices that all three paragraphs share one shape and treats that as a finding about
+  the reasoning as well as the form: each recommendation follows from its problem with no cost, owner,
+  or priority, and nothing says which of the three matters most. It does not suggest adding a
+  question, a joke, or varied sentence lengths for their own sake.

@@ -1,0 +1,11 @@
+# private author profile and any other local overrides
+references/private/
+
+# packaged builds and test workspaces
+*.skill
+*.zip
+*-workspace/
+
+__pycache__/
+*.pyc
+.DS_Store

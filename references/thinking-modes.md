@@ -1,6 +1,6 @@
 # Thinking Modes
 
-This skill adapts Tey Bannerman's Four Modes framework for article review. The source framework describes Compression as finding clarity when overwhelmed, Expansion as generating options when stuck, Reflection as challenging reasoning, and Execution as producing once the thinking is ready.
+This skill adapts Tey Bannerman's Four Modes framework for reviewing professional work. The source framework describes Compression as finding clarity when overwhelmed, Expansion as generating options when stuck, Reflection as challenging reasoning, and Execution as producing once the thinking is ready.
 
 Source: https://fourmodes.teybannerman.com/
 
@@ -63,7 +63,11 @@ Look for:
 - changes attempted in the wrong order
 - editing prose before resolving the proposition
 
-Typical leads: Harvey, Ted, and Mary, with Thrawn preserving the whole and Sherlock protecting evidence.
+Typical leads: Harvey, Ted, and Mary, with Thrawn preserving the whole and Sherlock protecting evidence. Sun Tzu orders the agenda: cheap decisive fixes first, and a judgement on which contested claims to advance, hold, or decline. Appoint him by default in Final Gate, where originality research is terrain mapping and the strongest objection is a fight the article must either win or sidestep.
+
+## Open Field precedes diagnosis
+
+Run the Open Field phase before diagnosing the balance. The balance diagnosis is more accurate once the free thinking has surfaced what the artefact is missing, and the angles produced there often decide which mode should lead.
 
 ## Mode diagnosis
 
@@ -98,6 +102,18 @@ Lead with Reflection through Sherlock, Socrates, and Popper.
 
 Lead with Execution through Mary and Ted, then use Occam selectively.
 
+### Competent but generic (consultant-speak)
+
+The work is sound, well structured, and could have come from any firm. Lead with the executive credibility check and the sceptical peer wild card to find the missing expertise signals, then Nietzsche or Sun Tzu for the angle nobody else in the pitch will take. Do not use Compression; the problem is absence, not clutter.
+
+### Right answer, wrong deliverable
+
+The analysis is correct but the artefact will not reach the decision-maker in this form. Lead with Open Field's deliverable challenge and the CFO in the room, then Mary for the rebuild. Restructure before any prose work.
+
 ### Near-final and apparently strong
 
 Lead with Reflection and evidence-backed originality. Use Compression only for final cuts.
+
+### Strong claim on contested ground
+
+The thesis is sound but competes directly with well-established voices or orthodoxies. Lead with Sun Tzu to find the uncontested angle or the position that makes the objection unnecessary, then Harvey to build the case there. Do not use Expansion to add more claims to the fight.
