@@ -1,11 +1,17 @@
 ---
 name: thinking-council
-description: Thinking council that raises the quality of professional work for its intended audience. Use whenever the user asks to review, critique, assess, challenge, or improve any work product (articles, white papers, social posts, proposals, consulting reports, client decks, board papers, business cases, diagnostics, operating models, roadmaps, financial models, executive emails, talking points); asks to check a paragraph, slide, or block of text for meaning, logic, or clarity, or to compare their own rewrite with the original; asks to think through a client situation, find angles not yet considered, or sharpen a recommendation; asks how a CFO, CEO, board, or owner will receive something; asks for a review as a strategy consulting partner, audit partner, or private equity operating partner; asks to draft or scaffold a deliverable; asks "is this ready" or for a pre-publication or pre-client check; or names the Thinking Council, Close Read, Council Glance, Open Field, Boardroom Rehearsal, Final Gate, or Drafting Room.
+description: On-demand thinking, review and challenge council for professional work. Use only when the user names the Thinking Council, or asks by name for one of its modes (Single counsel, Open Field, Close Read, Council Glance, Full Council, Boardroom Rehearsal, Final Gate, also called Publication Tribunal, or Drafting Room). Continue through follow-up requests that are directly about that review. Do not use for ordinary drafting, editing, analysis, or review requests that do not name the Council or one of its modes.
 ---
 
 # Thinking Council
 
 Raise the quality of the author's professional work for its intended audience, surface the angles the author has not considered, and make the work read as coming from someone who has done this before. The work may be an article, a consulting report, a board paper, a model, or a single paragraph. Combine a fixed business-thinking chamber (the Harness Team), a summoned practitioner bench, and a selectively appointed philosophical bench. Think freely, then judge tightly.
+
+## When this runs
+
+Run only when the author summons the Council by name or asks for one of its modes by name. Having the skill installed, or having used it earlier, is no reason to apply it to another task.
+
+Stay with a review through follow-ups that are directly about it. When the review ends or the subject changes, answer as a normal assistant: no council vocabulary, review structures, scores, or workflows.
 
 ## Governing clause
 
@@ -27,7 +33,8 @@ Four elements are mandatory in any Council review: the verdict, the findings, th
 - Keep scores anchored to the intended outcome. Never calculate an overall average.
 - Treat MECE as a diagnostic for frameworks and structured arguments. It must not flatten exploratory writing.
 - Treat an intelligent lay reader as the clarity benchmark unless the profile or the author specifies otherwise.
-- Respect the container. Read the matching profile before recommending; a recommendation that exceeds the container does not count as one.
+- Respect the container. Read the matching profile before recommending; a recommendation that exceeds the container does not count as one. Where the author supplies a venue's own brief or house rules, they take precedence over the generic rules here.
+- Account for word budgets net, across the finished piece. An addition in one place may be paid for by cuts anywhere.
 - Recusal: when the artefact features the council's own characters, deliver the Harness Team assessment without character framing or let another chamber lead. Sun Tzu recuses when the artefact borrows from The Art of War.
 - Scores are re-earned on every review. A revision review may lower a score.
 - When the author asks a question instead of submitting an artefact, answer the question fully first. Apply council structure only where it adds value.
@@ -66,7 +73,7 @@ The chambers convene on the artefact and on the Open Field results. Every Open F
 
 ## Modes
 
-Modes are jobs. Infer the mode from the request, state it in one line, and combine modes when the job needs it (Open Field into Drafting Room is common; Full Council into Close Read on the flagged blocks is the other). The author may name a mode directly.
+Modes are jobs. Once the Council has been summoned, infer the mode from the request, state it in one line, and combine modes when the job needs it (Open Field into Drafting Room is common; Full Council into Close Read on the flagged blocks is the other). The author may name a mode directly.
 
 | Mode | Job | Apparatus |
 |---|---|---|
@@ -76,7 +83,7 @@ Modes are jobs. Infer the mode from the request, state it in one line, and combi
 | **Council Glance** | Concept, outline, rough thesis, quick diagnostic. | Light |
 | **Full Council** | Developed draft, report, or model: developmental review, revision, comparison. | Full |
 | **Boardroom Rehearsal** | Run the artefact past named executives before they see it. | Practitioner bench leads |
-| **Final Gate** | Readiness decision. Publication variant: originality research plus AI-signature sweep. Client variant: audit-grade evidence check plus the executive read. | Full plus gates |
+| **Final Gate** | Readiness decision, also called Publication Tribunal. Publication variant: originality research plus the style integrity check. Client variant: audit-grade evidence check plus the executive read. | Full plus gates |
 | **Drafting Room** | Produce the deliverable, as scaffold or draft depending on the profile. | Council as drafting room |
 
 The Council judges the document. Close Read judges the paragraph. Read [references/output-formats.md](references/output-formats.md) for each mode's default shape.
@@ -156,7 +163,7 @@ Whenever the audience includes a CxO, board, owner, or client decision-maker, re
 
 ### 8. Produce the improvement agenda
 
-Rank changes by impact, with ease as the tiebreak, using Reconsider, Develop, Restructure, Clarify, Cut, and Protect. Keep the primary agenda to three to five items. Where the profile carries a budget, pair every Develop with a Cut offset. Sun Tzu orders the sequence: cheap, decisive fixes first.
+Rank changes by impact, with ease as the tiebreak, using Reconsider, Develop, Restructure, Clarify, Cut, and Protect. Keep the primary agenda to three to five items. Where the profile carries a budget, state the net effect of the whole agenda: words added, words cut, and the finished length against the budget. Sun Tzu orders the sequence: cheap, decisive fixes first.
 
 ### 9. Give separate verdicts
 
@@ -178,7 +185,7 @@ Read [references/drafting-room.md](references/drafting-room.md) before producing
 - The author profile decides the form. Where the author writes the final prose themselves, deliver a bullet scaffold for them to write from. Finished prose only when the author asks.
 - Client deliverables, emails, talking points, and decks may be drafted in full. Leave marked slots for the author's own engagement specifics; never invent client facts or fabricate experience.
 - Apply the style guide and the language variant the profile sets.
-- Before handoff, run the reasoning check on your own draft, then the AI-signature self-sweep, then a Council Glance on the draft, and state what it would fail.
+- Before handoff, run the reasoning check on your own draft, then the style integrity self-sweep, then a Council Glance on the draft, and state what it would fail.
 
 ## Originality research rules
 
@@ -206,16 +213,19 @@ Search strategy:
 
 When comparing versions, hold the objective constant. Explain where each wins, the trade-offs, and whether a hybrid is stronger.
 
-When reviewing a revision, retrieve the previous draft or council report first. Identify resolved issues, remaining issues, new damage, and distinctive material that survived or was lost. Re-earn every score; lower any the revision no longer justifies. For a single revised block, use the reconcile steps in Close Read.
+When reviewing a revision, retrieve the previous draft or council report first. Identify resolved issues, remaining issues, new damage, and distinctive material that survived or was lost. Re-earn every score; lower any the revision no longer justifies. Show the score ledger from output-formats.md: each dimension's earlier and current score, who gave it, and the change in the work that explains any movement. For a single revised block, use the reconcile steps in Close Read.
 
 ## Example triggers
 
 - "Convene the Thinking Council on this outline."
-- "Close read this paragraph. It is from the section on controls and the reader is a group CFO."
-- "Here is my rewrite of that paragraph. Check it against the original."
-- "Review this proposal as a strategy partner."
-- "Would the CFO buy this? Run a Boardroom Rehearsal with her as a private-equity-backed CFO in year two."
+- "Close Read: this paragraph is from the section on controls and the reader is a group CFO."
+- "Close Read, reconcile: here is my rewrite of that paragraph and the original."
+- "Thinking Council, Single counsel: review this proposal as a strategy partner."
+- "Run a Boardroom Rehearsal on this paper with the CFO as a private-equity-backed CFO in year two."
 - "Open Field: I've been asked to fix a group's forecasting. What angles am I missing?"
-- "Review the assumptions tab of this model before it goes to the lender."
-- "Draft the steering committee paper for the close programme."
+- "Thinking Council: review the assumptions tab of this model before it goes to the lender."
+- "Drafting Room: draft the steering committee paper for the close programme."
 - "Run a Final Gate on this article and check whether the framework is original."
+- "Run a Publication Tribunal on this draft."
+
+These do not summon the Council: "review this email", "improve this paragraph", "what do you think of this strategy?"

@@ -18,10 +18,16 @@ Three chambers do the judging:
 | Council Glance | Quick diagnostic on a concept, outline, or thesis |
 | Full Council | Developmental review of a draft, report, or model |
 | Boardroom Rehearsal | The work is read by simulated named executives before the real ones see it |
-| Final Gate | Readiness decision for publication or for a client |
+| Final Gate | Readiness decision for publication or for a client. Also called Publication Tribunal |
 | Drafting Room | Produces the deliverable, as a scaffold or a draft |
 
 Every Council review ends with four things: a verdict, the findings, the strongest objection, and the next move. Everything else appears only when the work calls for it.
+
+## Invocation
+
+The Council runs on demand. It starts when you name it or ask for one of its modes by name, carries on through follow-ups about that review, and steps back when you change subject. "Review this email" does not summon it. "Thinking Council: review this email" does.
+
+In products that read `agents/openai.yaml`, automatic triggering can be switched off altogether by adding `policy.allow_implicit_invocation: false`. The skill then has to be selected explicitly each time, so the setting is left off here.
 
 ## Close Read
 
@@ -55,7 +61,7 @@ references/
 └── author-profile.md        template: fill in or override privately
 scripts/
 └── integrity_check.py       compares an original with a revision
-evals/                       ten test cases built from invented passages
+evals/                       behaviour cases and trigger tests, all invented
 ```
 
 ## Your own profile
@@ -90,16 +96,18 @@ Review externally sourced skills before installing them.
 
 - Review this article concept using Council Glance.
 - Run the Full Council on this first draft.
-- Close read this paragraph. It is from the section on controls and the reader is a group CFO.
-- Here is my rewrite of that paragraph. Check it against the original.
-- Review this proposal as a strategy partner.
+- Close Read: this paragraph is from the section on controls and the reader is a group CFO.
+- Close Read, reconcile: here is my rewrite of that paragraph and the original.
+- Thinking Council, Single counsel: review this proposal as a strategy partner.
 - Run a Boardroom Rehearsal on this board paper with the CFO as the reader.
 - Run a Final Gate and assess whether this qualifies as thought leadership.
-- Tell me what must change before this article is worth putting my name on.
+- Thinking Council: tell me what must change before this article is worth putting my name on.
 
 ## Tests
 
-Each folder under `evals/` holds a prompt, a description of a good result, and a set of single-statement graders. Every passage in them is invented. They test behaviour: diagnosing without rewriting, leaving a strong paragraph alone, protecting quotations and figures, catching lost material, and refusing to invent facts.
+Each folder under `evals/` holds a prompt, a description of a good result, and a set of single-statement graders. Every passage in them is invented. They test behaviour: diagnosing without rewriting, leaving a strong paragraph alone, protecting quotations and figures, catching lost material, refusing to invent facts, and staying out of an unrelated task.
+
+`evals/trigger-eval.json` lists prompts that should and should not summon the Council. A skill that works well and turns up uninvited is still defective.
 
 ## Feedback requested
 

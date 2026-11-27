@@ -1,12 +1,14 @@
 # Venue Profiles
 
-Identify the venue before reviewing. If the user has not stated it, infer it from length, register, and structure, and state the inference. Every recommendation must fit the venue's container: where a word budget applies, pair every Develop with a Cut offset of comparable size.
+Identify the venue before reviewing. If the user has not stated it, infer it from length, register, and structure, and state the inference. Every recommendation must fit the venue's container. Word budgets are accounted net across the finished piece: the agenda states the words added, the words cut, and the resulting length against the budget.
+
+The profiles below are defaults. Where the author supplies the venue's own brief or house rules, those take precedence.
 
 ## Trade publication feature article
 
 - Budget: 700 to 1,200 words. Treat 1,200 as a wall, not a target.
 - Standard: publishable thought leadership for practitioners and leaders in the field, with an intelligent lay reader as the clarity floor.
-- An editorial gatekeeper usually applies. Where the author profile says the venue uses an AI-detection gate, run the sweep at Final Gate.
+- An editorial gatekeeper usually applies. Run the style integrity check at Final Gate.
 - Structure: each section owns one idea. A 1,000-word article carries one central claim and at most three supporting moves.
 
 ## Series part (practitioner series)

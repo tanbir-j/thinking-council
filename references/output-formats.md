@@ -132,7 +132,7 @@ Mandatory in every mode. State the single strongest objection a hostile, informe
 
 ### 9. Priority improvement agenda
 
-Rank three to five actions using Reconsider, Develop, Restructure, Clarify, Cut, and Protect. State impact and suggested sequence. Where the venue carries a word budget, pair every Develop with a Cut offset.
+Rank three to five actions using Reconsider, Develop, Restructure, Clarify, Cut, and Protect. State impact and suggested sequence. Where the venue carries a word budget, close the agenda with one line of net accounting: words added, words cut, and the finished length against the budget.
 
 ### 10. Verdicts
 
@@ -174,7 +174,7 @@ Two variants. Both end in a readiness decision and neither may be collapsed. Bot
 6. Credibility verdict
 7. Go, go with named fixes, or hold, with the fixes ranked
 
-### Publication variant (formerly Publication Tribunal)
+### Publication variant (also called Publication Tribunal)
 
 Use the Full Council structure, then add:
 
@@ -197,14 +197,14 @@ Synthesize the research into one of:
 
 State confidence and limitations. Cite all material external claims.
 
-### AI-signature sweep
+### Style integrity check
 
-Run this where the author profile says the venue applies an AI-detection gate, and on request elsewhere.
+Run this at every publication Final Gate, whether or not the venue scans submissions, and on request elsewhere. Its purpose is to protect the author's voice and to find formulaic prose.
 
 1. Find the author's style guide (named in the author profile) and apply its AI-signature sections as the authoritative pattern list. Cite section numbers rather than restating rules.
 2. If the guide is unreachable, fall back to this minimum pattern set: em dashes; the "X is not Y, it is Z" negation pattern; same-scaffold parallel structure across consecutive sentences; "The [noun]" opener immediately after a short sentence; manufactured enthusiasm and hype intensifiers; descriptive triads inside prose.
 3. Report each flagged passage with its location and the pattern it matches. Flag candidates; the author decides.
-4. State a directional risk judgement only. Never claim to predict the result of any AI-detection tool, and never present a clean sweep as a guarantee of passing a gate.
+4. State a directional judgement only. The check does not establish who or what wrote the text. Never claim to predict the result of any AI-detection tool, and never present a clean result as a guarantee of passing one.
 
 ### Body-of-work fit
 
@@ -237,7 +237,20 @@ Use:
 2. Issues still open
 3. New problems introduced
 4. Distinctive material preserved or lost
-5. Updated scores and verdicts only where changed, with any lowered score stated plainly and explained
-6. Publication decision
+5. Score ledger
+6. Updated verdicts only where changed
+7. Publication decision
+
+### Score ledger
+
+One row per dimension, one column per draft reviewed, newest last:
+
+| Dimension | Earlier draft | This draft | What changed in the work |
+|---|---|---|---|
+
+- Head each score column with its date and the reviewer that produced it. Scores from a different reviewer or model are shown and marked as not directly comparable.
+- Tie every movement, up or down, to a change in the work. A score that moves with no matching change is explained as a correction to the earlier judgement, or reversed.
+- State any lowered score plainly.
+- Where no earlier scores can be found, say so and start the ledger at this draft.
 
 Scores are re-earned, not inherited. A revision review that can only move scores upward is miscalibrated.

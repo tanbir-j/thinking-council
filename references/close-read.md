@@ -125,7 +125,7 @@ Rules for the diagnostic:
 - State the missing thought as a working note to the author, in plain language. Do not write the finished sentence for the page.
 - A Keep verdict takes one line: the job and the word Keep.
 - Three findings at most. If a block has more than three defects, the first finding is that the block is doing too many jobs.
-- Net words are stated for every operation. Where the venue has a budget, an expansion names the cut that pays for it.
+- Net words are stated for every operation. Where the venue has a budget, the block's net cost counts against the budget for the whole piece; if the piece is already at its limit, say where the words could come from.
 
 ## 9. Targeted rewrite
 

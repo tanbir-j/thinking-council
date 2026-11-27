@@ -113,4 +113,17 @@ Score each relevant dimension from 1 to 5 using the scale and calibration anchor
 7. Risk awareness: are the ways this goes wrong named, with the author's response?
 8. Credibility signals: does the artefact carry the markers of someone who has done this before?
 
+The 3-to-4 boundary for each dimension:
+
+| Dimension | A 3 | A 4 |
+|---|---|---|
+| Problem definition | Restates the client's brief accurately | States the problem more precisely than the client did, including what it excludes |
+| Commercial relevance | Benefits described in general terms | Each recommendation tied to a metric the executive is measured on |
+| Evidence | Claims plausible, sources partial | Each material claim supported at the strength asserted, with provenance |
+| Judgement | Options set out with their pros and cons | A recommendation with its risk stated and the author's stake visible |
+| Executive readability | The answer is there and takes finding | The first paragraph or slide gives the answer and the ask |
+| Feasibility and adoption | Sound in principle | Sized to this organisation's capacity, with the first step and its owner named |
+| Risk awareness | Standard risks listed | The specific ways this could fail here, each with a response |
+| Credibility signals | Competent, and could come from any adviser | Carries at least two markers of experience a generalist could not supply |
+
 A 4 on judgement with a 2 on evidence is a finding, not an average of 3.

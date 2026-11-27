@@ -124,6 +124,21 @@ The 3-to-4 boundary is where reviewer drift concentrates. Hold it.
 - A 4 contains a claim an informed reader could disagree with, framed so the disagreement is productive, plus at least one element (framework, phrase, analogy, or example) the reader could reuse without the article in front of them.
 - A 5 is rare by definition. If most dimensions score 5, the review is miscalibrated, not the article exceptional. Expect a strong publishable piece to carry a mix of 3s and 4s.
 
+### The boundary by dimension
+
+The anchors above describe the piece as a whole. Each dimension has its own 3-to-4 boundary, so that a 4 for clarity is not judged by the test for a 4 on distinctiveness:
+
+| Dimension | A 3 | A 4 |
+| --- | --- | --- |
+| Objective fit | Serves the stated aim in places and drifts elsewhere | Every section can be tied to the outcome the author wants |
+| Idea strength | True and worth saying, and few would dispute it | A claim an informed reader could dispute, defended well enough to hold |
+| Distinctiveness | Could carry another competent author's name | Has a perspective, term, or framing a reader would attribute to this author |
+| Coherence | Each part is sound; the links between them are left to the reader | Argument, evidence, and implication follow from one another on the page |
+| Narrative thread | The order is logical, and the reader must hold the thread themselves | The opening sets a question that each section advances and the close answers |
+| Structural integrity | Sections overlap, or leave a gap a careful reader would notice | Sections are distinct and together cover what the claim needs |
+| Clarity | Understood on a second reading, or only by a specialist | The intended reader follows it first time, at reading speed |
+| Reader value | Informs | Gives the reader something to reuse, reconsider, or do |
+
 Anti-drift rules:
 
 - Default to the lower score when torn between two.

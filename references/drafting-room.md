@@ -40,7 +40,7 @@ Scaffolds carry no finished sentences other than the governing thought and any l
 ## Self-sweep before handoff
 
 1. Reasoning check. Run the Close Read reasoning pass ([close-read.md](close-read.md) section 3) on the draft before any style work: each section has a distinct job, each claim its link and consequence, and anything you supplied that the author did not is marked PROPOSED for confirmation.
-2. AI-signature sweep against the style guide's pattern list (fallback: em dashes; "X is not Y, it is Z" negation; same-scaffold parallel sentences; "The [noun]" opener after a short sentence; manufactured enthusiasm and hype intensifiers; descriptive triads). Fix what is found; report what was fixed.
+2. Style integrity sweep against the style guide's pattern list (fallback: em dashes; "X is not Y, it is Z" negation; same-scaffold parallel sentences; "The [noun]" opener after a short sentence; manufactured enthusiasm and hype intensifiers; descriptive triads). Fix what is found; report what was fixed.
 3. Register check: no supplicant constructions in executive-facing drafts.
 4. Council Glance on the draft: verdict, three findings, next move. State plainly what the draft would fail if it went out as is. A draft handed over without its own Glance is incomplete.
 

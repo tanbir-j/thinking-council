@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: stays-out-of-unrelated-task
+expected_outcome: |
+  A Council Glance on the three-point outline, with a verdict, findings, the strongest objection, and
+  a next move. The subject line is then given plainly in a line or two, as any assistant would give
+  it, with no verdict, scores, findings, or council vocabulary applied to it.
